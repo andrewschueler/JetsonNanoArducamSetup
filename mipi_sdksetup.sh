@@ -38,4 +38,5 @@ Traceback (most recent call last):
     ) = range(1, 9) + [0x80]
 TypeError: unsupported operand type(s) for +: 'range' and 'list'
 ```
-
+# Maybe this link is helpful?
+# https://stackoverflow.com/questions/47472691/asking-for-unsupported-operand-types-for-range-and-list
