@@ -15,7 +15,7 @@ git clone https://github.com/ArduCAM/MIPI_Camera.git
 cd ~/MIPI_Camera/Jetson/Jetvariety/driver
 # kernel and version output
 # ~/MIPI_Camera/Jetson/Jetvariety/driver$ uname -a
-# Linux moduletwo-desktop 4.9.140-tegra #1 SMP PREEMPT Wed Apr 8 18:10:49 PDT 2020 aarch64 aarch64 aarch64 GNU/Linux
+# Linux $USER-desktop 4.9.140-tegra #1 SMP PREEMPT Wed Apr 8 18:10:49 PDT 2020 aarch64 aarch64 aarch64 GNU/Linux
 # ~/MIPI_Camera/Jetson/Jetvariety/driver$ cat /etc/nv_tegra_release 
 # R32 (release), REVISION: 4.2, GCID: 20074772, BOARD: t210ref, EABI: aarch64, DATE: Thu Apr  9 01:22:12 UTC 2020
 # I did not know which versionto run, so I just ran what appeared to be the latest driver.
