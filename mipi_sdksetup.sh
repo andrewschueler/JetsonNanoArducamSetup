@@ -32,9 +32,9 @@ sudo reboot now
 Traceback (most recent call last):
   File "arducam_displayer.py", line 8, in <module>
     from utils import ArducamUtils
-  File "/home/moduletwo/MIPI_Camera/Jetson/Jetvariety/example/utils.py", line 1, in <module>
+  File "/home/$USER/MIPI_Camera/Jetson/Jetvariety/example/utils.py", line 1, in <module>
     import v4l2
-  File "/home/moduletwo/.local/lib/python3.6/site-packages/v4l2.py", line 197, in <module>
+  File "/home/$USER/.local/lib/python3.6/site-packages/v4l2.py", line 197, in <module>
     ) = range(1, 9) + [0x80]
 TypeError: unsupported operand type(s) for +: 'range' and 'list'
 ```
